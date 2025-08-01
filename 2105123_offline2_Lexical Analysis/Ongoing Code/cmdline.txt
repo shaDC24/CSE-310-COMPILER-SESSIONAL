@@ -1,0 +1,3 @@
+flex lex2.l
+g++ lex.yy.c -o lex2 -lfl
+ ./lex2 input1.txt

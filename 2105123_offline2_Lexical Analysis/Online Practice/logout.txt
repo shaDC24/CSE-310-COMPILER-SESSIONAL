@@ -1,0 +1,6 @@
+Line no : 1  valid pattern Foo<Bar>
+Line no : 2  valid pattern Foo<Bar<Buzz>>
+Line no : 3  Invalid pattern Foo<Bar<Bazz> 
+Line no : 4  Invalid pattern Foo<Bar<
+Line no : 5 #Duplicate string found Foo
+Line no : 5  Mismatched pattern Foo<Foo>

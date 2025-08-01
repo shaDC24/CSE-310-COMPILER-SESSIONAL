@@ -1,0 +1,29 @@
+3
+I main FUNCTION INT
+S
+I x VAR
+I y VAR
+L x
+E
+I helper STRUCT INT id STRING name
+P A
+E
+I main FUNCTION VOID
+I z VAR
+S
+I y VAR
+I x VAR
+L x
+E
+P A
+S
+I user UNION INT id BOOL is_active
+S
+I a VAR
+I a VAR  # duplicate in same scope
+L a
+E
+I relop <= RELOP
+D relop
+P C
+Q

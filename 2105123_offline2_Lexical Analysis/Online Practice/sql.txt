@@ -1,0 +1,5 @@
+WHERE age > 25 AND name = 'Alice'
+WHERE status = "active AND balance < 100
+WHERE (age BETWEEN 18 AND 30) OR (name LIKE 'J%' AND salary >= 50000)
+WHERE user_id = 1234 AND date = '2023-01-01 AND status IN ('active
+

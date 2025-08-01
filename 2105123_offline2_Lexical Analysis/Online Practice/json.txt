@@ -1,0 +1,16 @@
+{"name": "Alice", "age": 25}
+{"person": {"name": "Bob", "age": 30}, "active": true}
+{}
+{"colors": ["red", "green", "blue"], "count": 3}
+{"a":1 "b":2}
+{a: 1}
+{"x": 1, "y": 2,}
+{"name" "Alice"}
+{"name": "Alice}
+{"age": 25a}
+{"": "empty"}
+{"quote": "He said, \"Hello\""}
+{"first_name": "John", "$value": 100}
+{  "key"  :  "value"  ,  "num"  :  42  }
+{"active": true, "verified": false, "data": null}
+{"int": 42, "float": 3.14, "negative": -10, "exp": 1.2e5}

@@ -1,0 +1,19 @@
+Contact us at support@company.com or visit https://company.com
+Email: john.doe123@sub.domain.org
+Invalid: user@.com
+URLs: http://example.com/path?query=1, ftp://old.site.edu
+Test cases:
+email@domain (missing TLD)
+www.site.com (missing protocol)
+admin@localhost
+https://valid.com/path
+invalid@.com
+user@company..com
+ssh://server.org
+Send reports to:
+- analytics@data2024.org
+- data@team.io
+Check our portal at:
+  portal://internal.net
+Broken: http:///triple-slash.com
+Meeting: zoom@meet (invalid)

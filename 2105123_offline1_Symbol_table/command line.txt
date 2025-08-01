@@ -1,0 +1,40 @@
+
+cd "/mnt/c/Users/DELL/Downloads/2105123/2105123"
+
+g++ -g -fsanitize=address 2105123_Main.cpp -o main
+./main sample_input.txt output.txt 
+
+g++ -g -fsanitize=address 2105123_report_generator.cpp -o report
+./report sample_input.txt report.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cd "F:\D drive\Level-3 Term-1\CSE310 Compiler Sessional\2105123Copy"
+cd "/mnt/f/D drive/Level-3 Term-1/CSE310 Compiler Sessional/2105123_Offline1"
+
+g++ -g -fsanitize=address -fno-omit-frame-pointer your_program.cpp -o your_program
+./your_program input.txt out.txt hashFunction
+
+
+cd "/mnt/f/D drive/2105123"
+
+g++ -g -fsanitize=address -fno-omit-frame-pointer 2105123_report_generator.cpp -o main
+
+
+g++ -g -fsanitize=address 2105123_Main.cpp -o main
+./main sample_input.txt output.txt 
+

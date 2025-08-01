@@ -1,0 +1,23 @@
+; Sample assembly code with labels
+start:
+    mov ax, bx
+    mov cx, dx
+    
+loop:           ; This is a label
+    add ax, 1
+    jnz loop
+    
+    jmp start
+    
+data_section:
+    db 0x12, 0x34
+    
+loop:           ; Duplicate label!
+    
+end:
+    hlt
+loop :           ; This is a label
+    add ax, 1
+    jnz loop
+    
+    jmp start    

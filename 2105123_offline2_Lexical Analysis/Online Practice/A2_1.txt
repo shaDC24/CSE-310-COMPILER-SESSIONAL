@@ -1,0 +1,9 @@
+#define NICE "nice"
+#define PI 3.1415
+#define num 3.48E20
+#define PI 3.14
+#define EXP 6.02E23
+#define COUNT 42
+#define LETTER 'X'
+#define MESSAGE "hi"
+#define FLAG

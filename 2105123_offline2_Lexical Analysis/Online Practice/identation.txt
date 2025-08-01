@@ -1,0 +1,6 @@
+def foo():
+    print("hello")
+    print("again")
+      print("wrong")
+\tprint("tabbed")  
+print("done")

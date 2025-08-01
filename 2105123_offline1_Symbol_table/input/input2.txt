@@ -1,0 +1,34 @@
+5
+I a VAR
+I a VAR             
+I b VAR
+I myFunc FUNCTION INT FLOAT
+I myFunc FUNCTION INT FLOAT  
+S
+I a VAR              
+L a                 
+L a                 
+L b
+L x                 
+D x                 
+P A
+S
+E
+E                    
+I x STRUCT INT a FLOAT b
+I y UNION INT i BOOL j
+I relop <= RELOP
+I equal == RELOP
+P C
+D relop
+D equal
+P C
+I z VAR
+I z VAR             
+S
+I z VAR             
+P A
+L z
+E
+L z
+Q

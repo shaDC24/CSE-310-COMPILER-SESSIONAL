@@ -1,0 +1,17 @@
+3
+I abc VAR
+I bac VAR
+I cab VAR
+I foo FUNCTION INT FLOAT
+S
+I abc VAR
+L abc
+L bac
+D cab
+P A
+E
+I foo STRUCT INT x FLOAT y
+I bar UNION INT i BOOL j
+I foo VAR
+P A
+Q

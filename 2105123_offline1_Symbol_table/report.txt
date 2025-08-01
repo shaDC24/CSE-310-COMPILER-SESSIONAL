@@ -1,0 +1,30 @@
+Hash Function       Total ScopeTables        Mean Collision Ratio
+-----------------------------------------------------------------
+sdbm                2                        0.666667            
+djb                 2                        0.500000            
+additive            2                        0.666667            
+fnv                 2                        0.500000            
+
+
+=== Detailed Collision Records ===
+
+Collision Report for Hash Function: sdbm
+-----------------------------------------------------------------
+ScopeTable# 1 | Collisions: 4 | Bucket Size: 3 | Collision Ratio: 1.333333
+ScopeTable# 2 | Collisions: 0 | Bucket Size: 3 | Collision Ratio: 0.000000
+
+Collision Report for Hash Function: djb
+-----------------------------------------------------------------
+ScopeTable# 1 | Collisions: 3 | Bucket Size: 3 | Collision Ratio: 1.000000
+ScopeTable# 2 | Collisions: 0 | Bucket Size: 3 | Collision Ratio: 0.000000
+
+Collision Report for Hash Function: additive
+-----------------------------------------------------------------
+ScopeTable# 1 | Collisions: 4 | Bucket Size: 3 | Collision Ratio: 1.333333
+ScopeTable# 2 | Collisions: 0 | Bucket Size: 3 | Collision Ratio: 0.000000
+
+Collision Report for Hash Function: fnv
+-----------------------------------------------------------------
+ScopeTable# 1 | Collisions: 3 | Bucket Size: 3 | Collision Ratio: 1.000000
+ScopeTable# 2 | Collisions: 0 | Bucket Size: 3 | Collision Ratio: 0.000000
+

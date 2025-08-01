@@ -1,0 +1,5 @@
+apple || banana || cherry
+dog || cat || bird
+red || green blue || yellow
+data || @value || end$
+|| empty || || field ||
